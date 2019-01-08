@@ -104,12 +104,10 @@ GEM
     after_commit_action (1.1.0)
       activerecord (>= 3.0.0)
       activesupport (>= 3.0.0)
-    ahoy_email (0.5.2)
-      actionmailer
-      activerecord
+    ahoy_email (1.0.2)
+      actionmailer (>= 4.2)
       addressable (>= 2.3.2)
       nokogiri
-      railties
       safely_block (>= 0.1.1)
     airbrake (7.4.0)
       airbrake-ruby (~> 2.12)
@@ -270,8 +268,8 @@ GEM
       thor (~> 0.15)
     environs (1.1.0)
     equalizer (0.0.11)
-    errbase (0.1.0)
-    erubi (1.7.1)
+    errbase (0.1.1)
+    erubi (1.8.0)
     et-orbi (1.1.6)
       tzinfo
     eventmachine (1.2.5)
@@ -930,7 +928,7 @@ DEPENDENCIES
   acts_as_follower!
   addressable (~> 2.5, >= 2.5.2)
   administrate (~> 0.11)
-  ahoy_email (~> 0.5)
+  ahoy_email (~> 1.0)
   airbrake (~> 7.4)
   algoliasearch-rails (~> 1.20)
   algorithmia (~> 1.0)
